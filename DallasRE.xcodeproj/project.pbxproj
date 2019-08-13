@@ -15,6 +15,9 @@
 		E6C3926C22FF99A100E15594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C3926A22FF99A100E15594 /* LaunchScreen.storyboard */; };
 		E6C3927722FF99A200E15594 /* DallasRETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3927622FF99A200E15594 /* DallasRETests.swift */; };
 		E6C3928222FF99A200E15594 /* DallasREUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3928122FF99A200E15594 /* DallasREUITests.swift */; };
+		E6C3929023009ED000E15594 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3928F23009ED000E15594 /* Property.swift */; };
+		E6C3929323009F9800E15594 /* SearchResultModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C3929223009F9800E15594 /* SearchResultModels.swift */; };
+		E6C392952302F83F00E15594 /* FetchXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C392942302F83F00E15594 /* FetchXML.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E6C3927D22FF99A200E15594 /* DallasREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DallasREUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C3928122FF99A200E15594 /* DallasREUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DallasREUITests.swift; sourceTree = "<group>"; };
 		E6C3928322FF99A200E15594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C3928F23009ED000E15594 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		E6C3929223009F9800E15594 /* SearchResultModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModels.swift; sourceTree = "<group>"; };
+		E6C392942302F83F00E15594 /* FetchXML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchXML.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 				E6C3926A22FF99A100E15594 /* LaunchScreen.storyboard */,
 				E6C3926D22FF99A100E15594 /* Info.plist */,
 				E6C3926522FF99A000E15594 /* DallasRE.xcdatamodeld */,
+				E6C3929123009EDA00E15594 /* Model */,
 			);
 			path = DallasRE;
 			sourceTree = "<group>";
@@ -126,6 +133,16 @@
 				E6C3928322FF99A200E15594 /* Info.plist */,
 			);
 			path = DallasREUITests;
+			sourceTree = "<group>";
+		};
+		E6C3929123009EDA00E15594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6C3928F23009ED000E15594 /* Property.swift */,
+				E6C3929223009F9800E15594 /* SearchResultModels.swift */,
+				E6C392942302F83F00E15594 /* FetchXML.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +278,9 @@
 			files = (
 				E6C3926122FF99A000E15594 /* ViewController.swift in Sources */,
 				E6C3926722FF99A000E15594 /* DallasRE.xcdatamodeld in Sources */,
+				E6C392952302F83F00E15594 /* FetchXML.swift in Sources */,
+				E6C3929323009F9800E15594 /* SearchResultModels.swift in Sources */,
+				E6C3929023009ED000E15594 /* Property.swift in Sources */,
 				E6C3925F22FF99A000E15594 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
